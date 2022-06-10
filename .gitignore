@@ -13,6 +13,7 @@
 out/
 /tmp
 /intellij
+.idea
 workspace.xml
 *.versionsBackup
 /idea/testData/debugger/tinyApp/classes*
