@@ -29,6 +29,7 @@ class PokemonApi (val listPokemonHandler: ListPokemonHandler, val getPokemonHand
             .toMono()
             .map { list -> PokemonListDTOResponse.fromList(list) }
             .map { updatedCat -> ResponseEntity.ok(updatedCat) }
+            .onErrorResume( PokemonException::class.java) { err -> errorHandling(err) }
             .defaultIfEmpty(ResponseEntity.notFound().build())
     }
 
@@ -41,7 +42,6 @@ class PokemonApi (val listPokemonHandler: ListPokemonHandler, val getPokemonHand
             .onErrorResume( PokemonException::class.java) { err -> errorHandling(err) }
             .defaultIfEmpty(ResponseEntity.notFound().build())
     }
-
 
     fun errorHandling(error: PokemonException): Mono<ResponseEntity<Response>> {
         return Mono.just(ErrorHandler.mapError(error))

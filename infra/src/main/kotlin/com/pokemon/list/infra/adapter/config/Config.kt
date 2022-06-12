@@ -2,7 +2,7 @@ package com.pokemon.list.infra.adapter.config
 
 import com.pokemon.list.app.handler.GetPokemonHandler
 import com.pokemon.list.app.handler.ListPokemonHandler
-import com.pokemon.list.domain.service.PokemonService
+import com.pokemon.list.domain.ports.PokemonService
 import com.pokemon.list.infra.adapter.out.service.PokemonServiceAdapter
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.ComponentScan
