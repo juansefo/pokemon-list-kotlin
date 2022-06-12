@@ -1,4 +1,4 @@
-package com.pokemon.list.domain.service
+package com.pokemon.list.domain.ports
 
 import com.pokemon.list.domain.aggregate.Pagination
 import com.pokemon.list.domain.entity.Pokemon
