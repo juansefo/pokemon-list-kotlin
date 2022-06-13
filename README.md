@@ -15,10 +15,10 @@ Infra: In this layer we have our adapters and all third party libraries.
 
 ### Design: 
 #### /pokemon/list
-![](../../../../../Downloads/Pokemon Proyect - getPokemons.png)
+![](/Users/juansebastianforeronoguera/Downloads/Pokemon Proyect - getPokemons.png)
 
 #### /pokemon
-![](../../../../../Downloads/Pokemon Proyect - getPokemon.png)
+![](/Users/juansebastianforeronoguera/Downloads/Pokemon Proyect - getPokemon.png)
 
 ## Requirements:   
 1. Gradle 7.x
