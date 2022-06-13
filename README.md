@@ -24,5 +24,9 @@ Infra: In this layer we have our adapters and all third party libraries.
 1. Gradle 7.x
 2. Java 11
 
-## How to run
+## How to run:
 Go to the starter located in infra/com.pokemon.list.infra.adapter.Starter.kt and run the main method.
+
+## Resources:
+1. [Ports and Adapters Architecture](https://medium.com/idealo-tech-blog/hexagonal-ports-adapters-architecture-e3617bcf00a0)
+2. [Hexagoal architecture JavaKotlin](https://dev.to/jorgetovar621/hexagonal-architecture-javakotlin-example-15i7)
