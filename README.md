@@ -15,10 +15,10 @@ Infra: In this layer we have our adapters and all third party libraries.
 
 ### Design: 
 #### /pokemon/list
-![Complete List](https://github.com/juansefo/pokemon-list-kotlin/blob/feature/readme/image/getPokemons.png)
+![Complete List](https://github.com/juansefo/pokemon-list-kotlin/blob/main/image/getPokemons.png)
 
 #### /pokemon
-![Specific Pokemon](https://github.com/juansefo/pokemon-list-kotlin/blob/feature/readme/image/getPokemon.png)
+![Specific Pokemon](https://github.com/juansefo/pokemon-list-kotlin/blob/main/image/getPokemon.png)
 
 ## Requirements:   
 1. Gradle 7.x
