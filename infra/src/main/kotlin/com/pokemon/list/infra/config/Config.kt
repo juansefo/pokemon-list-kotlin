@@ -1,4 +1,4 @@
-package com.pokemon.list.infra.adapter.config
+package com.pokemon.list.infra.config
 
 import com.pokemon.list.app.handler.GetPokemonHandler
 import com.pokemon.list.app.handler.ListPokemonHandler

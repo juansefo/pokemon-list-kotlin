@@ -1,4 +1,4 @@
-package com.pokemon.list.infra.adapter
+package com.pokemon.list.infra
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
